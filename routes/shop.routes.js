@@ -1,12 +1,8 @@
 import { Router } from "express";
+import { getAllProduct } from "../controller/shop.controller.js";
 
 const router = Router()
 
-router.get("/product", (req, res) => {
-    console.log("fetching all data .......")
-    console.log("shop router")
-    console.log(req.body)
-    return res.status(200).json({ message: "All data fetched sucessfully" })
-})
+router.get("/products", getAllProduct)
 
 export default router
