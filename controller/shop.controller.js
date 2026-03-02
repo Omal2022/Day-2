@@ -5,4 +5,6 @@ const getAllProduct = async (req, res) => {
     res.status(200).json({ products })
 }
 
-export {getAllProduct}
+
+
+export { getAllProduct }

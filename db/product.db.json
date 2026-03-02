@@ -5,18 +5,13 @@
     "price": 200000
   },
   {
-    "id": 2,
-    "name": "iphone 13",
-    "price": 500000
-  },
-  {
     "id": 3,
     "name": "Samsung TV wide 13",
     "price": 9000000
   },
   {
-    "id": 4,
-    "name": "Plates",
-    "price": 30000
+    "id": 5,
+    "name": "Laptop",
+    "price": 200000
   }
 ]
